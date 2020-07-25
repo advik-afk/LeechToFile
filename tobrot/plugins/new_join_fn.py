@@ -33,12 +33,12 @@ async def new_join_f(client, message):
 
 
 async def help_message_f(client, message):
-    await message.reply_text("<b>Read Pinned Message</b>", quote=True)
+    #await message.reply_text("<b>Read Pinned Message</b>", quote=True)
     #channel_id = str(AUTH_CHANNEL)[4:]
     #message_id = 99
     # display the /help
     
-    await message.reply_text(""" """, disable_web_page_preview=True)
+    await message.reply_text("""<b>Read Pinned Message</b>""", disable_web_page_preview=True)
 
 
 async def rename_message_f(client, message):
